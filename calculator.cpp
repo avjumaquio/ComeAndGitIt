@@ -5,6 +5,8 @@ int main()
 {
     int firstNumber, secondNumber, sumOfTwoNumbers;
     
+    cout <<"Hello Venus!";
+    cout <<"Hello World!";
     cout << "Enter two integers: ";
     cin >> firstNumber >> secondNumber;
 
@@ -15,4 +17,5 @@ int main()
     cout << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;     
 
     return 0;
+
 }
