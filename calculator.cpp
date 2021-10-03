@@ -9,6 +9,8 @@ int main()
     
   
 
+    cout << "CALCULATOR BY JUMA" << endl
+    cout <<"<------------------->";
     cout << "Enter two integers: ";
     cin >> firstNumber >> secondNumber;
 
