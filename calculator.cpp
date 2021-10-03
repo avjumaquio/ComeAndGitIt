@@ -6,6 +6,8 @@ int main()
     int firstNumber, secondNumber, sumOfTwoNumbers,diffOfTwoNumbers,productOfTwoNumbers,quotientOfTwoNumbers;
     
   
+    cout << "My Calculator : ";
+    cout << "Welcome";
     cout << "Enter two integers: ";
     cin >> firstNumber >> secondNumber;
 
