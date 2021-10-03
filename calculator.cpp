@@ -1,13 +1,14 @@
 #include <iostream>
+
 using namespace std;
 
 int main()
 {
-    int firstNumber, secondNumber, sumOfTwoNumbers,diffOfTwoNumbers,productOfTwoNumbers,quotientOfTwoNumbers;
+    int firstNumber, secondNumber, sumOfTwoNumbers,diffOfTwoNumbers,
+    productOfTwoNumbers,quotientOfTwoNumbers,modOfTwoNumbers;
     
   
-    cout << "My Calculator : ";
-    cout << "Welcome";
+
     cout << "Enter two integers: ";
     cin >> firstNumber >> secondNumber;
 
@@ -16,6 +17,7 @@ int main()
     diffOfTwoNumbers=firstNumber-secondNumber;
     productOfTwoNumbers=firstNumber*secondNumber;
     quotientOfTwoNumbers=firstNumber/secondNumber;
+    modOfTwoNumbers=firstNumber%secondNumber;
 
     // Prints sum 
     cout << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;     
@@ -24,9 +26,10 @@ int main()
      //Print product
     cout << firstNumber << " * " <<  secondNumber << " = " << productOfTwoNumbers; 
     //Print the quotient
-     cout << firstNumber << " / " <<  secondNumber << " = " <<quotientOfTwoNumbers; 
+    cout << firstNumber << " / " <<  secondNumber << " = " <<quotientOfTwoNumbers; 
+    //Print the remainder
+    cout << firstNumber << " % " <<  secondNumber << " = " <<modOfTwoNumbers;
 
-     //comment
 
 
     return 0;
