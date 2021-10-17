@@ -4,36 +4,24 @@ using namespace std;
 
 int main()
 {
-    int firstNumber, secondNumber, sumOfTwoNumbers,diffOfTwoNumbers,
-    productOfTwoNumbers,quotientOfTwoNumbers,modOfTwoNumbers;
+
+    int firstNumber,secondNumber,total,difference,product,quotient;
+
+    total=firstNumber+secondNumber;
+    difference=firstNumber-secondNumber;
+    product=firstNumber*secondNumber;
+    quotient=firstNumber/secondNumber;
+
+    //print total
+    cout<<total<<endl;
+    //print difference
+    cout<<difference<<endl;
+    //print product
+    cout<<product<<endl;
+    //print quotient
+    cout<<quotient<<endl;
     
-  
-
-    cout << "CALCULATOR BY JUMA" << endl
-    cout <<"<------------------->";
-    cout << "Enter two integers: ";
-    cin >> firstNumber >> secondNumber;
-
-    // sum of two numbers in stored in variable sumOfTwoNumbers
-    sumOfTwoNumbers = firstNumber + secondNumber;
-    diffOfTwoNumbers=firstNumber-secondNumber;
-    productOfTwoNumbers=firstNumber*secondNumber;
-    quotientOfTwoNumbers=firstNumber/secondNumber;
-    modOfTwoNumbers=firstNumber%secondNumber;
-
-    // Prints sum 
-    cout << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;     
-    //Print difference
-    cout << firstNumber << " - " <<  secondNumber << " = " << diffOfTwoNumbers; 
-     //Print product
-    cout << firstNumber << " * " <<  secondNumber << " = " << productOfTwoNumbers; 
-    //Print the quotient
-    cout << firstNumber << " / " <<  secondNumber << " = " <<quotientOfTwoNumbers; 
-    //Print the remainder
-    cout << firstNumber << " % " <<  secondNumber << " = " <<modOfTwoNumbers;
-
-
-
     return 0;
+
 
 }
